@@ -1,5 +1,5 @@
 form {
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
   
   form input[name="city"],
@@ -7,7 +7,7 @@ form {
     background-color: transparent;
     color: white;
     border: none;
-    border-bottom: 2px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke;
     border-radius: 0;
   }
   

@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url("./assets/blur-background-1187974.jpg");
+  background: url("https://dsx.weather.com/util/image/w/fr-ciel-rose.jpg?v=at&w=485&h=273&api=7db9fe61-7414-47b5-9871-e17d87b8b6a0");
   background-size: cover;
   background-repeat: no-repeat;
 }

@@ -3,7 +3,7 @@ import "./App.css";
 import Form from "./Components/form";
 import Weather from "./Components/weather";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import "weather-icons/css/weather-icons.css";
+import "weather-icons/css/weather-icons.css";
 
 
 const Api_Key = "429736441cf3572838aa10530929f7cd";
@@ -63,7 +63,7 @@ class App extends React.Component {
   }
 
   calCelsius(temp) {
-    let cell = Math.floor(temp - 273.15);
+    let cell = Math.floor(temp * 9 / 5 - 459.67);
     return cell;
   }
 
