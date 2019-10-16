@@ -1,17 +1,20 @@
 {
   "name": "project",
+  "homepage": "https://ckader03.github.io/weather-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.1.1",
     "react": "^16.10.2",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
     "weather-icons": "git+https://github.com/erikflowers/weather-icons.git"
-
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
