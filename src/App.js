@@ -3,7 +3,8 @@ import "./App.css";
 import Form from "./Components/form";
 import Weather from "./Components/weather";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "weather-icons/css/weather-icons.css";
+
+// import "weather-icons/css/weather-icons.css";
 
 
 const Api_Key = "429736441cf3572838aa10530929f7cd";
@@ -102,6 +103,7 @@ class App extends React.Component {
     }
   };
 
+
   render() {
     return (
       <div className="App">
@@ -114,6 +116,8 @@ class App extends React.Component {
           temp_min={this.state.temp_min}
           description={this.state.description}
         />
+
+<i className="wi wi-day-lightning"></i>
       </div>
     );
   }

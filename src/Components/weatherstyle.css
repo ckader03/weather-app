@@ -5,11 +5,12 @@
   .container input,
   .container ::-webkit-input-placeholder {
     color: white !important;
+    font-size: 18px;
   }
   .container input:focus {
     background-color: transparent;
     box-shadow: none !important;
     border: none;
-    border-bottom: 3px solid tomato;
+    border-bottom: 3px solid rgb(6, 126, 173);
   }
   
