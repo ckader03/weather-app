@@ -11,7 +11,7 @@ const Weather = props => {
         </h5>
 
         {props.temp_celsius ? (
-          <h1 className="py-2">{props.temp_celsius}&deg;</h1>
+          <h1 className="py-2">{props.temp_celsius}&deg;F</h1>
         ) : null}
 
         {maxminTemp(props.temp_min, props.temp_max)}
