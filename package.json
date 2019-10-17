@@ -1,6 +1,6 @@
 {
   "name": "project",
-  "homepage": "https://ckader03.github.io/weather-app",
+  "homepage": "https://github.com/ckader03/weather-app.git/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,6 @@
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
-    "weather-icons": "git+https://github.com/erikflowers/weather-icons.git"
   },
   "scripts": {
     "predeploy": "npm run build",
